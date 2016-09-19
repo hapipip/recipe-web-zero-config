@@ -1,0 +1,10 @@
+adapter: disk
+connection:
+  user: root
+  password: ~
+  database: houra
+  host: localhost
+  port: 3306
+disk:
+  schema: true
+  path: db/taka-

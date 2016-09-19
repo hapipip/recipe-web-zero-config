@@ -1,0 +1,48 @@
+{
+  "name": "recipe-web-zero-config",
+  "version": "0.1.0",
+  "description": "A basic web recipe for houra with less config possible",
+  "main": "lib/recipe.js",
+  "scripts": {
+    "test": "lab -vcCD test/index.js"
+  },
+  "author": "Nicolas Dufreche <n.dufreche@gmail.com>",
+  "peerDependencies": {
+    "houra": "git+https://github.com/hapipip/houra.git#master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hapipip/recipe-web-zero-config.git"
+  },
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/hapipip/recipe-web-zero-config/issues"
+  },
+  "homepage": "https://github.com/hapipip/recipe-web-zero-config#readme",
+  "dependencies": {
+    "blipp": "^2.3.0",
+    "dogwater": "^2.1.0",
+    "ejs": "^2.5.2",
+    "handlebars": "^4.0.5",
+    "hapi-router": "^3.5.0",
+    "inert": "^4.0.2",
+    "jade": "^1.11.0",
+    "mustache": "^2.2.1",
+    "nunjucks": "^2.5.2",
+    "sails-disk": "^0.10.10",
+    "sails-memory": "^0.10.7",
+    "sails-mongo": "^0.12.1",
+    "sails-mysql": "^0.11.5",
+    "sails-postgresql": "^0.11.4",
+    "sails-redis": "^0.10.7",
+    "superagent": "^2.2.0",
+    "vision": "^4.1.0",
+    "waterline": "^0.12.2"
+  },
+  "devDependencies": {
+    "code": "^3.0.2",
+    "houra": "git+https://github.com/hapipip/houra.git#master",
+    "eslint": "^3.4.0",
+    "lab": "^11.0.1"
+  }
+}

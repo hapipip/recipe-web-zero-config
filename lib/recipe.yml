@@ -1,0 +1,14 @@
+manifest:
+  path: manifest
+  plugins:
+    - vision
+    - inert
+config:
+  path: config
+  expose:
+    - orm
+structure:
+  template: templates
+  model: models
+  route: routes
+  static: statics
